@@ -219,7 +219,7 @@ button {
 }
 
 .section--dark .h-eyebrow {
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .5);
 }
 
 .h1 {
@@ -321,7 +321,7 @@ button {
 
 .btn--ghost-light:hover {
   background: rgba(255, 255, 255, .15);
-  border-color: rgba(255, 255, 255, .7);
+  border-color: rgba(255, 255, 255, .5);
 }
 
 .btn--ghost-dark {
@@ -2003,7 +2003,7 @@ button {
 
 .footer__links li {
   font-size: var(--fs-sm);
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .5);
   line-height: 1.6;
 }
 
@@ -2025,7 +2025,7 @@ button {
   background: rgba(255, 255, 255, .08);
   display: grid;
   place-items: center;
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .5);
   transition: all .2s ease;
 }
 
@@ -2039,11 +2039,11 @@ button {
   border-top: 1px solid rgba(255, 255, 255, .1);
   text-align: center;
   font-size: var(--fs-sm);
-  color: rgba(255, 255, 255, .6);
+  color: rgba(255, 255, 255, .4);
 }
 
 .footer__bottom a {
-  color: rgba(255, 255, 255, .7);
+  color: rgba(255, 255, 255, .5);
   text-decoration: underline;
   transition: color .2s ease;
 }
