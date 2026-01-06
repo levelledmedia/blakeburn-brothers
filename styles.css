@@ -219,7 +219,7 @@ button {
 }
 
 .section--dark .h-eyebrow {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .35);
 }
 
 .h1 {
@@ -321,7 +321,7 @@ button {
 
 .btn--ghost-light:hover {
   background: rgba(255, 255, 255, .15);
-  border-color: rgba(255, 255, 255, .5);
+  border-color: rgba(255, 255, 255, .35);
 }
 
 .btn--ghost-dark {
@@ -332,7 +332,7 @@ button {
 
 .btn--ghost-dark:hover {
   background: rgba(255, 255, 255, .08);
-  border-color: rgba(255, 255, 255, .5);
+  border-color: rgba(255, 255, 255, .35);
 }
 
 /* ========================================
@@ -774,7 +774,7 @@ button {
 
 .hero__checklist li {
   color: rgba(255, 255, 255, .95);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
 }
 
 .hero__checklist i {
@@ -829,7 +829,7 @@ button {
 }
 
 .hero__form-subtext {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   color: var(--n-600);
   line-height: var(--lh-normal);
   margin-bottom: var(--sp-5);
@@ -865,7 +865,7 @@ button {
   border: 1px solid #dce7e0;
   border-radius: var(--r-sm);
   font-family: var(--font-sans);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   color: var(--n-900);
   background: var(--n-000);
   transition: all .18s ease;
@@ -1546,7 +1546,7 @@ button {
 }
 
 .testimonial-card__text {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   color: var(--n-600);
   line-height: 1.6;
   margin-bottom: var(--sp-2);
@@ -1566,7 +1566,7 @@ button {
   background: none;
   border: none;
   color: var(--primary);
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   font-weight: 500;
   cursor: pointer;
   padding: 0;
@@ -1967,13 +1967,13 @@ button {
 }
 
 .footer__tagline {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   color: rgba(255, 255, 255, .75);
   line-height: 1.6;
 }
 
 .footer__heading {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   font-weight: 600;
   color: #F8FAFB;
   margin-bottom: var(--sp-4);
@@ -1992,7 +1992,7 @@ button {
 }
 
 .footer__links a {
-  font-size: var(--fs-sm);
+  font-size: var(--fs-xs);
   color: rgba(255, 255, 255, .75);
   transition: color .2s ease;
 }
@@ -2002,8 +2002,8 @@ button {
 }
 
 .footer__links li {
-  font-size: var(--fs-sm);
-  color: rgba(255, 255, 255, .5);
+  font-size: var(--fs-xs);
+  color: rgba(255, 255, 255, .35);
   line-height: 1.6;
 }
 
@@ -2025,7 +2025,7 @@ button {
   background: rgba(255, 255, 255, .08);
   display: grid;
   place-items: center;
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .35);
   transition: all .2s ease;
 }
 
@@ -2038,12 +2038,12 @@ button {
   padding-top: var(--sp-6);
   border-top: 1px solid rgba(255, 255, 255, .1);
   text-align: center;
-  font-size: var(--fs-sm);
-  color: rgba(255, 255, 255, .4);
+  font-size: var(--fs-xs);
+  color: rgba(255, 255, 255, .3);
 }
 
 .footer__bottom a {
-  color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, .35);
   text-decoration: underline;
   transition: color .2s ease;
 }
@@ -2393,6 +2393,7 @@ button {
 
 /* Dark Mode Toggle Button */
 .dark-mode-toggle {
+  display: none;
   background: transparent;
   border: none;
   cursor: pointer;
