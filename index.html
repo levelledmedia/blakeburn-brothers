@@ -9,6 +9,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Readex+Pro:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <style id="dark-mode-init">
+    /* Prevent white flash on page load for dark mode */
+    html, body {
+      background: #0A0A0A !important;
+      color: #94A3B8 !important;
+    }
     html.dark-mode-init .card,
     html.dark-mode-init .form-input,
     html.dark-mode-init .btn--ghost-light {
